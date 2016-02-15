@@ -1,3 +1,2 @@
-# FurkThat
-<h1>FurkThat!</h1>
-<h2>An addon for furk.net users</h2>
+# FurkThat!
+<h2 style="font-style: italic;">An addon for furk.net users</h2>

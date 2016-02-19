@@ -11,8 +11,11 @@
 // @grant		none
 // ==/UserScript==
 
+<<<<<<< HEAD
 // TESTS FOR GITHUB, 2
 
+=======
+>>>>>>> origin/master
 // Retrieves the info hash depending on which site it is.
 if (location.hostname == "kat.cr") {
 	var infoHash = $('#thnxLink').data('hash');

@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 <<<<<<< HEAD
-// TESTS FOR GITHUB, TEST 3
+// TESTS FOR GITHUB, TEST 3, Branch Test
 
 =======
 >>>>>>> origin/master

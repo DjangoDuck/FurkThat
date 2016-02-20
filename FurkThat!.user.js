@@ -11,11 +11,8 @@
 // @grant		none
 // ==/UserScript==
 
-<<<<<<< HEAD
 // TESTS FOR GITHUB, TEST 3, Branch Test
 
-=======
->>>>>>> origin/master
 // Retrieves the info hash depending on which site it is.
 if (location.hostname == "kat.cr") {
 	var infoHash = $('#thnxLink').data('hash');
@@ -215,100 +212,3 @@ $.ajax({
 		}
 	}
 });
-
-
-/*jQuery19109385222132081391_1455362268452({
-	"files": [],
-	"messages": [],
-	"found_files": "0",
-	"torrent": {
-		"have": "0.00",
-		"up_bytes": "0",
-		"id_files": null,
-		"info_hash": "95A942D1498D030464E7CDB7D74B6FEA76011A2C",
-		"speed": "0",
-		"id": "12150356020053458163",
-		"up_speed": "0",
-		"dl_status": "active",
-		"is_linked": "1",
-		"fail_reason": "",
-		"leeching_dt": "0000-00-00 00:00:00",
-		"post_proc_status": "",
-		"peers": "0",
-		"mtime": "2016-02-13 11:16:27",
-		"avail": "0.00",
-		"adding_dt": "2016-02-13 11:16:27",
-		"name": "ProPlus14.x64.SP2.en-US-2016.02.zip",
-		"active_status": "adding",
-		"size": "1651112936",
-		"seeders": "0",
-		"bytes": "1",
-		"finish_dt": "0000-00-00 00:00:00"
-	},
-	"dl": {
-		"peers": "0",
-		"leeching_dt": "0000-00-00 00:00:00",
-		"post_proc_status": "",
-		"adding_dt": "2016-02-13 11:16:27",
-		"avail": "0.00",
-		"mtime": "2016-02-13 11:16:27",
-		"active_status": "adding",
-		"name": "ProPlus14.x64.SP2.en-US-2016.02.zip",
-		"bytes": "1",
-		"finish_dt": "0000-00-00 00:00:00",
-		"size": "1651112936",
-		"seeders": "0",
-		"id_files": null,
-		"up_bytes": "0",
-		"have": "0.00",
-		"speed": "0",
-		"info_hash": "95A942D1498D030464E7CDB7D74B6FEA76011A2C",
-		"is_linked": "1",
-		"fail_reason": "",
-		"id": "12150356020053458163",
-		"up_speed": "0",
-		"dl_status": "active"
-	},
-	"status": "ok"
-})*/
-
-
-
-/*jQuery19104215575748025491_1454679668571({
-	"status": "ok",
-	"messages": [],
-	"files": [{
-		"url_dl": "https://3582soma8co1mjo7qbk17iau8oqhebfrpdfgkjo.fpddl.link/d/p/KPJJ85cVir783TN1K7pG24jDbFUylUFDK8924T_lHww1Fy37y18KTw/Jarhead.3.The.Siege.2016.FRENCH.BDRip.XviD-ViVi",
-		"ss_width": "300",
-		"size": "793695403",
-		"video_info": "Duration: 01:28:59.27, start: 0.000000, bitrate: 1189 kb/s\n    Stream #0:0: Video: mpeg4 (Simple Profile) (xvid / 0x64697678), yuv420p, 720x306 [SAR 1:1 DAR 40:17], 1048 kb/s, 25 fps, 25 tbr, 25 tbn, 25 tbc\n    Metadata:\n      title           : FRF\n    Stream #0:1: Audio: mp3 (U[0][0][0] / 0x0055), 44100 Hz, stereo, s16p, 128 kb/s\n    Metadata:\n      title           : FR",
-		"id": "8789532666757360475",
-		"name": "Jarhead.3.The.Siege.2016.FRENCH.BDRip.XviD-ViVi",
-		"ss_num": "9",
-		"ss_urls": ["//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/1", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/2", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/3", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/4", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/5", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/6", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/7", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/8", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/9"],
-		"id_labels": [],
-		"ss_urls_tn_all": "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/tn_all",
-		"av_time": "0000-00-00 00:00:00",
-		"files_num_video_player": "0",
-		"files_num_image": "0",
-		"media_proc_status": "done",
-		"status": "",
-		"url_pls": "https://3582soma8co1mjo7qbk17iau8oqhebfrpdfgkjo.fpddl.link/pls/DkIWmplvFZ8qB_QuNF1pGIjDbFUylUFDK8924T_lHww1Fy37y18KTw/Jarhead.3.The.Siege.2016.FRENCH.BDRip.XviD-ViVi.xspf",
-		"url_page": "/df/a6cda84e36a8baef",
-		"files_num_audio": "0",
-		"info_hash": "70D259F24F16BDE70B5B9881686AC1644BA43CE2",
-		"files_num_audio_player": "0",
-		"type": "video",
-		"av_info": "",
-		"is_ready": "1",
-		"ss_urls_tn": ["//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/tn_1", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/tn_2", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/tn_3", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/tn_4", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/tn_5", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/tn_6", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/tn_7", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/tn_8", "//e5huo240oi5svl4adkvoqi8njgqhebfrpdfgkjo.fpddl.link/ss/6526084/tn_9"],
-		"av_result": "error",
-		"files_num_video": "1",
-		"ss_height": "128"
-	}]
-}) */
-
-
-
-
-/*jQuery19107224175489249275_1454760144153({"status":"error","error":"access denied"})*/

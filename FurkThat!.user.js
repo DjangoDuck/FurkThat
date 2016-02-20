@@ -11,7 +11,6 @@
 // @grant		none
 // ==/UserScript==
 
-// TESTS FOR GITHUB, TEST 3, Branch Test
 
 // Retrieves the info hash depending on which site it is.
 if (location.hostname == "kat.cr") {

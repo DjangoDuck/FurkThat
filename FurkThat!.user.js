@@ -11,8 +11,8 @@
 // @grant		none
 // ==/UserScript==
 
-
 // Retrieves the info hash depending on which site it is.
+// Feel free to add any more websites
 if (location.hostname == "kat.cr") {
 	var infoHash = $('#thnxLink').data('hash');
 }
@@ -31,7 +31,7 @@ if (!regTest.test(infoHash)) {
 	return;
 }
 
-// CSS which is later used
+// CSS, used later
 var furkButtonBarCSS = {
 		padding: "10px 0px 10px 0px",
 		position: "fixed",
@@ -69,6 +69,7 @@ var furkNotReadyCSS = {
 	color: "red",
 }
 
+// This creates the HTML when needed (When the ajax call works).
 function furkInitHTML() {
 	console.log("furkInitHTML called");
 
@@ -78,6 +79,7 @@ function furkInitHTML() {
 	$(".furkButton").css(furkButtonCSS);
 }
 
+// This makes the "Add" button actually do something, called after furkInitHTML on the button
 function furkAddClick() {
 	console.log("The Furk button was clicked.");
 
@@ -86,18 +88,14 @@ function furkAddClick() {
 	$.ajax({
 		url: "https://www.furk.net/api/dl/add",
 
-		// The name of the callback parameter, as specified by the YQL service
 		jsonp: "jsonp",
 
-		// Tell jQuery we're expecting JSONP
 		dataType: "jsonp",
 
-		// Tell YQL what we want and that we want JSON
 		data: {
 			info_hash: infoHash,
 		},
 
-		// Work with the response
 		success: function (response) {
 			console.log(response.status);
 			if (response.status != "ok") {
@@ -112,6 +110,8 @@ function furkAddClick() {
 			else {
 				html += "<span class='furkNotReady'>" + response.dl.dl_status + "</span>";
 			}
+
+			// TODO: Clean this up, its also repeated somewhere else in the script
 			$("#furkNotification").html(html);
 			$("#furkNotification").show();
 			$(".furkReady").css(furkReadyCSS);
@@ -121,24 +121,23 @@ function furkAddClick() {
 	});
 }
 
+
+// Makes the notification bar, doesnt happen in furkInitHTML because it is used for errors.
 $("body").append("<div id='furkNotification'></div>");
 $("#furkNotification").css(furkNotificationCSS);
 
+// Gets the basic info for the torrent.
 $.ajax({
 	url: "https://www.furk.net/api/file/info",
 
-	// The name of the callback parameter, as specified by the YQL service
 	jsonp: "jsonp",
 
-	// Tell jQuery we're expecting JSONP
 	dataType: "jsonp",
 
-	// Tell YQL what we want and that we want JSON
 	data: {
 		info_hash: infoHash,
 	},
 
-	// Work with the response
 	success: function (response) {
 		console.log(response.status);
 

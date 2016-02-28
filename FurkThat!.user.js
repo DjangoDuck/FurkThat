@@ -1,10 +1,9 @@
 // ==UserScript==
 // @name		FurkThat!
 // @namespace	https://fpddl.link
-// @description	Script for adding torrents to furk.net while being on other sites.
+// @description	Allows users of furk.net to add files to their account from other sites.
 // @include		https://kat.cr/*
 // @include		https://torrentz.eu/*
-// @include		https://fpddl.link/*
 // @require		http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 
 // @version		1

@@ -21,7 +21,7 @@ Here is how it looks like:
 
 Currently supported sites (More will be added):
 - [kat.cr] (https://kat.cr/)
-- [torrentz.eu] (https://torrentz.eu/)
+- [torrentz.eu] (https://torrentz.eu/) (Currently bugged)
 
 # Installation:
 Currently the only way to install is to use a userscript manager, in the future I'll make it an addon that you can download for your browser.

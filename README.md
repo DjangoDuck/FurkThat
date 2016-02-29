@@ -4,9 +4,18 @@
 This is an userscript made for [furk.net] (https://www.furk.net/) users so they can add files to their furk accounts from other sites such as kat.cr etc. In case you dont know what furk is:
 > Furk.net is your personal secure storage that fetches media files and lets you stream them immediately. You can use it to stream video or listen to your music from PC, smartphone, HTPC or even a game console (XBOX, PS3).
 
-![Example image] (http://i.imgur.com/SfBlFkG.png)
+You can use the script to:
+- Add files to your furk.net account
+- Get a link to the file on furk
+- A direct download link for the file
+- Directly play the file (If available)
+- View screenshots of a file (If it is video)
 
-![Example image] (http://i.imgur.com/IXAxUkL.png)
+Here is how it looks like:
+
+![Example Image] (http://i.imgur.com/SfBlFkG.png)
+
+![Added Image] (http://i.imgur.com/IXAxUkL.png) After a file is added
 
 Currently supported sites (More will be added):
 - [kat.cr] (https://kat.cr/)

@@ -10,7 +10,7 @@ You can use the script to:
 - Add files to your furk.net account
 - Get a link to the file on furk
 - A direct download link for the file
-- Directly play the file (If available)
+- Instantly play a video file using furk's cache
 - View screenshots of a file (If it is video)
 
 Here is how it looks like:

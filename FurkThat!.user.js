@@ -1,14 +1,17 @@
 // ==UserScript==
 // @name		FurkThat!
-// @namespace	https://fpddl.link
+// @namespace	https://furk.net
 // @description	Allows users of furk.net to add files to their account from other sites.
 // @include		https://kat.cr/*
 // @include		https://torrentz.eu/*
 // @require		http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 
-// @version		1
+// @version		1.0.1
 // @grant		none
+// @icon		furk.net/favicon.ico
 // ==/UserScript==
+
+// GITHUB PAGE: https://github.com/DjangoDuck/FurkThat
 
 // Retrieves the info hash depending on which site it is.
 // Feel free to add any more websites
@@ -125,8 +128,10 @@ function furkAddClick() {
 $("body").append("<div id='furkNotification'></div>");
 $("#furkNotification").css(furkNotificationCSS);
 
+console.log("TEST");
 // Gets the basic info for the torrent.
 $.ajax({
+
 	url: "https://www.furk.net/api/file/info",
 
 	jsonp: "jsonp",

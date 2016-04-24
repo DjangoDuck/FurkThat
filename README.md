@@ -15,13 +15,14 @@ You can use the script to:
 
 Here is how it looks like:
 
-![Example Image] (http://i.imgur.com/SfBlFkG.png)
+![Example Image] (http://i.imgur.com/TRSeYBL.png)
 
-![Added Image] (http://i.imgur.com/IXAxUkL.png) After a file is added
+And when viewing a table/list of files:
+
+![Another Image] (http://i.imgur.com/fanaqin.png)
 
 Currently supported sites (More will be added):
 - [kat.cr] (https://kat.cr/)
-- [torrentz.eu] (https://torrentz.eu/) (Currently bugged)
 
 # Installation:
 Currently the only way to install is to use a userscript manager, in the future I'll make it an addon that you can download for your browser.
@@ -32,9 +33,4 @@ __2.__ Install the script through [Greasy Fork] (https://greasyfork.org/en/scrip
 
 # Support:
 - If you've found a bug, make an [issue] (https://github.com/DjangoDuck/FurkThat/issues) and I'll try to fix it.
-- If you want support for another site added, either ask for it or do it yourself using this template:
-```javascript
-else if (location.hostname == "Your site, i.e github.com") {
-	var infoHash = Way to find the infohash, i.e $('#thnxLink').data('hash');
-}
-```
+- If you want support for another site added, request it and I'll probably add it.

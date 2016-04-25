@@ -13,11 +13,9 @@ You can use the script to:
 - Instantly play a video file using furk's cache
 - View screenshots of a file (If it is video)
 
-Here is how it looks like:
+Here is how it looks like when viewing a single file:
 
-![Example Image] (http://i.imgur.com/TRSeYBL.png)
-
-And when viewing a table/list of files:
+![Example Image] (http://i.imgur.com/TRSeYBL.png) And when viewing a table/list of files. It also appears in the "Related Torrents" section of single file pages:
 
 ![Another Image] (http://i.imgur.com/fanaqin.png)
 
